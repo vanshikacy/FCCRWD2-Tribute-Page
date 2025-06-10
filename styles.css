@@ -1,0 +1,49 @@
+body{
+background-image: url(https://i.pinimg.com/736x/34/1f/73/341f73b4c6b7daeed0d3671c3ff0b91f.jpg);
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+}
+#main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+font-family: 'Marcellus', serif;
+color: #5b5b5b;
+}
+
+#img-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#img-caption{
+  font-style: italic;
+  padding-top: 5px;
+  font-size: 1.2rem;
+  color: #5b5b5b;
+}
+
+#tribute-info{
+  background-color: rgba(255, 255, 255, 0.75); 
+  max-width: 900px;
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Marcellus', serif;
+}
+
+a{
+  font-style: italic;
+}
